@@ -2,7 +2,7 @@
 
 ### all codes below
 
-## [look at it live](https://captkraken.github.io/WAD-test/)
+## [look at it live](https://captkraken.github.io/wad-order-pizza/)
 
 ## 1/ ដោយសន្មត់គ្រប់ file ថិតនៅជាមួយគ្នា។ បង្កើត default.html មួយដែលភ្ជាប់ទៅកាន់ default.css, jquery-3.5.1.js, និង default.js
 
