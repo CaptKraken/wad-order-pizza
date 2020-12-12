@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Default</title>
+    <link rel="stylesheet" href="default.css">
+
+</head>
+<body>
+    <form>
+        <h1>Order Pizza</h1>
+
+        <!-- size -->
+        <p>Choose a Size</p>
+        <input type="radio" name="pizza-sizes" value="small" id="small" />
+        <label for="small">Small ($5.00)</label>
+
+        <input type="radio" name="pizza-sizes" value="medium" id="medium" />
+        <label for="medium">Medium ($11.00)</label>
+
+        <input type="radio" name="pizza-sizes" value="large" id="large" checked="checked" />
+        <label for="large">Large ($16.00)</label>
+        
+        <!-- topping -->
+        <p>Extra Topping</p>
+        <input id="cheese" type="checkbox" name="extra-topping" value="top-cheese" />
+        <label for="top-cheese">Extra Cheese ( + $1.00)</label>
+
+        <input id="pineapple" type="checkbox" name="extra-topping" value="top-pineapple" />
+        <label for="top-pineapple">Pinnaple ( + $2.00)</label>
+
+        <input id="kale" type="checkbox" name="extra-topping" value="top-kale" />
+        <label for="top-kale">Kale ( + $3.00)</label>
+
+        <!-- prices -->
+        <p>Extra Topping</p>
+        <label for="pizza">Pizza Price</label>
+        <input id="pizza-price" type="text" name="pizza-price" size="2" value="10.10">
+
+        <label for="extra-price">Extra Price</label>
+        <input id="extra-price" type="text" name="extra-price" size="2">
+
+        <label for="vat">VAT(10%)</label>
+        <input id="vat" type="text" name="vat" size="2">
+
+        <label for="total-price">Total Price</label>
+        <input id="total-price" type="text" name="total-price" size="2">
+    </form>
+
+    <script src="jquery-3.5.1.js"></script>
+    <script src="default.js"></script>
+</body>
+</html>
